@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="dashboard-sec">
+        <div class="menu" onclick="myFunction()"><svg width="30" height="30" viewBox="0 0 25 25">
+                <defs>
+                    <path id="a" d="M0 0h24v24H0z"></path>
+                    <path id="c" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </defs>
+                <g fill="#f6b129" fill-rule="evenodd">
+                    <mask id="d" fill="#fff">
+                        <use xlink:href="#c"></use>
+                    </mask>
+                    <use fill="#f6b129;" fill-rule="nonzero" xlink:href="#c"></use>
+                    <g fill="#f6b129;" mask="url(#d)">
+                        <path d="M0 0h24v24H0z"></path>
+                    </g>
+                </g>
+            </svg></div>
+        <div class="left-sec wrapper-shadow" id="left-section">
+            <div class="left-wrapper">
+                <div class="logo">
+                    <img src="d.logo.jfif" alt="">
+                </div>
+                <div class="dashboard-img-sec">
+                    <img src="side-img.jfif" alt="">
+                </div>
+                <ul>
+                    <li>
+                        <a href=""><i class='fa fa-play'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='fa fa-bookmark'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='fa fa-bell'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='fa fa-comment'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='fa fa-address-card'></i></a>
+                    </li>
+                </ul>
+                <button> <i class='fa fa-share-square'></i></button>
+            </div>
+        </div>
+        <div class="center-sec ">
+            <ul class="card-sec">
+                <li>
+                    <div class="card-info">
+                        <p>Top Orders</p>
+                        <div class="order-count">
+                            <h3>1075/</h3><span>day</span>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+                        <polygon points="10,10 10,50 50,50" style="fill: #caebef; border-radius: 8px;" />
+                    </svg>
+                    <div class="arrow"> <i class='fa fa-arrow-up'></i></div>
+                    <div class="card-top-img img1">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="card-info">
+                        <p>Top Orders</p>
+                        <div class="order-count">
+                            <h3>1075/</h3><span>day</span>
+                        </div>
+                    </div>
+                    <div class="card-top-img img2">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+                        <polygon points="10,10 10,50 50,50" style="fill: #edc58f; border-radius: 8px;" />
+                    </svg>
+                    <div class="arrow"> <i class='fa fa-arrow-down'></i></div>
+                </li>
+                <li>
+                    <div class="card-info">
+                        <p>Top Orders</p>
+                        <div class="order-count">
+                            <h3>1075/</h3><span>month</span>
+                        </div>
+                    </div>
+                    <div class="card-top-img img3">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+                        <polygon points="10,10 10,50 50,50" style="fill: #e7d9c6; border-radius: 8px;" />
+                    </svg>
+                    <div class="arrow"> <i class='fa fa-arrow-up'></i></div>
+                </li>
+                <li>
+                    <div class="card-info">
+                        <p>Top Orders</p>
+                        <div class="order-count">
+                            <h3>1075/</h3><span>year</span>
+                        </div>
+                    </div>
+                    <div class="card-top-img img4">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+                        <polygon points="10,10 10,50 50,50" style="fill: #caebef; border-radius: 8px;" />
+                    </svg>
+                    <div class="arrow"> <i class='fa fa-arrow-down'></i></div>
+                </li>
+
+            </ul>
+            <div class="order-overview">
+                <div class="order">
+                    <div class="head-sec">
+                        <p>Order Overview</p><span>10 Sep 2020</span>
+                    </div>
+                    <div class="order-sec">
+
+                        <div class="orders">
+                            <div class="order-head">
+                                <h3>Product|Order </h3><span>10 Sep 2020</span>
+                            </div>
+                            <div class="order-img">
+                                <img src="preview.png" alt="">
+                            </div>
+
+                            <ul class="order-info">
+                                <li>
+                                    <p>21242</p>
+                                    <div>Completed</div>
+                                </li>
+                                <li>
+                                    <p>21242</p>
+                                    <div>Completed</div>
+                                </li>
+                                <li>
+                                    <p>21242</p>
+                                    <div>Completed</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="activities-sec">
+                            <h3>Todays Activities</h3>
+                            <ul>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                                <li><span>2min ago</span>
+                                    <p>Order Builder Acess</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="visit-sec">
+                    <div class="head-sec">
+                        <p>Total Visit</p><span>10 Sep 2020</span>
+                    </div>
+                    <ul class="visits">
+                        <li>
+                            <div class="visits-img">
+                                <img src="activities.png" alt="">
+                            </div>
+                            <div class="visit-info">
+                                <h3>All Visits</h3>
+                                <div class="visit">
+                                    <p>Last Month-214</p>
+                                    <p>24 May 2023 12:30</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visits-img">
+                                <img src="activities.png" alt="">
+                            </div>
+                            <div class="visit-info">
+                                <h3>All Visits</h3>
+                                <div class="visit">
+                                    <p>Last Month-214</p>
+                                    <p>24 May 2023 12:30</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="visits-img">
+                                <img src="activities.png" alt="">
+                            </div>
+                            <div class="visit-info">
+                                <h3>All Visits</h3>
+                                <div class="visit">
+                                    <p>Last Month-214</p>
+                                    <p>24 May 2023 12:30</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="update-sec">
+                <div class="update-wrapper fl">
+                    <div class="update-img">
+                        <img src="update-img1.png" alt="">
+                    </div>
+                    <div class="update-info pink">
+                        <button>New Updates</button>
+                        <p>We can easily access to the past orders from homepage !</p>
+                        <div class="more-btn">
+                            <a href="">Learn More</a>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="update-wrapper fl">
+                    <div class="update-img">
+                        <img src="update-img2.png" alt="">
+                    </div>
+                    <div class="update-info green">
+                        <button>New Updates</button>
+                        <p>We can easily access to the past orders from homepage !</p>
+                        <div class="more-btn">
+                            <a href="">Learn More</a>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right-sec ">
+            <div class="track-sec wrapper-shadow">
+                <button>Getting Started Guide</button>
+                <h6>Track your team on Sales</h6>
+                <img src="preview (1).png" alt="">
+                <ul>
+                    <li>View on map</li>
+                    <li>View on Search</li>
+                </ul>
+                <div class="more-btn">
+                    <a href="">Learn More</a>
+                    <i class='fa fa-arrow-right'></i>
+                </div>
+            </div>
+            <div class="customer-sec">
+                <div class="customer-head fl jb">
+                    <h2>Our Customer</h2>
+                    <ul class="fl">
+                        <li><button><i class='fa fa-chevron-left'></i></button></li>
+                        <li><button><i class='fa fa-chevron-right'></i></button></li>
+                    </ul>
+                </div>
+                <ul class="customer-list">
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-up'></i>
+                        </div>
+                    </li>
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-up'></i>
+                        </div>
+                    </li>
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info red">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-down'></i>
+                        </div>
+                    </li>
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-up'></i>
+                        </div>
+                    </li>
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info red">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-down'></i>
+                        </div>
+                    </li>
+                    <li class="fl jb al">
+                        <div class="customer-info fl jc al">
+                            <span><img src="usa.jfif" alt=""></span>
+                            <p>USA</p>
+                        </div>
+                        <div class="customer-info">
+                            <span>84000</span>
+                            <i class='fa fa-arrow-up'></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script>
+        function myFunction() {
+            var element = document.getElementById("left-section");
+            element.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>
